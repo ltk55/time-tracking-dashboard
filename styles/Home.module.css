@@ -14,7 +14,28 @@
 }
 
 .userCard {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1rem;
+  color: #fff;
   grid-area: user-card;
+}
+
+.userCard__header {
+  background-color: hsl(235, 45%, 61%);
+  border-radius: 1rem;
+  padding: 1em;
+}
+
+.userCard__timeframe {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.userCard__timeframe button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .widget__work {
@@ -39,6 +60,14 @@
 
 .widget-self-care {
   grid-area: self-care;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* . @media (max-width: 600px) {

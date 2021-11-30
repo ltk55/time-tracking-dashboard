@@ -1,15 +1,17 @@
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function UserCard({ title, timeframes, timeframeSelected }) {
   return (
     <div className={styles.userCard}>
-      <header>
-        <span>Report for</span>
-        <span>Jeremy Robson</span>
+      <header className={styles.userCard__header}>
+        <Image src="/images/image-jeremy.png" width={50} height={50} alt="" />
+        <p>Report for</p>
+        <p>Jeremy Robson</p>
       </header>
 
       <div>
-        <ul>
+        <ul className={styles.userCard__timeframe}>
           <li>
             <button>Daily</button>
           </li>

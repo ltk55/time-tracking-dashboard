@@ -34,17 +34,16 @@ export default function Home() {
         })}
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={styles.attribution}>
+        Challenge by{" "}
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Frontend Mentor
         </a>
+        . Coded by <a href="#">Frank Lam</a>.
       </footer>
     </div>
   );
