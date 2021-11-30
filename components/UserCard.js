@@ -1,6 +1,8 @@
+import styles from "../styles/Home.module.css";
+
 export default function UserCard({ title, timeframes, timeframeSelected }) {
   return (
-    <div>
+    <div className={styles.userCard}>
       <header>
         <span>Report for</span>
         <span>Jeremy Robson</span>
